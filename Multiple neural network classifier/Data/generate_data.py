@@ -8,7 +8,7 @@ df['label'] = Y
 df.to_csv('Data/moons.csv', index=False)
 
 
-X1, Y1 = make_circles(n_samples=300, noise=0.3, factor=0.2)
+X1, Y1 = make_circles(n_samples=500, noise=0.1, factor=0.1)
 df1 = pd.DataFrame(X1, columns=['x1', 'x2'])
 df1['label'] = Y1
 df1.to_csv('Data/circles.csv', index=False)

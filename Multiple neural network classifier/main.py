@@ -7,7 +7,7 @@ import pandas as pd
 np.random.seed(0)
 
 # reading data
-data=pd.read_csv(r"D:\Repositories\Math for ML\PR-Multiple neural network classifier\Data\moons.csv")
+data=pd.read_csv(r"Data\moons.csv")
 
 
 # reshaping data
